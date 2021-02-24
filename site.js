@@ -22,15 +22,15 @@ app.get('/',function(req,res){
 });
 
 app.get('/info',function(req,res){
-  res.render('home');
+  res.render('info');
 });
 
 app.get('/products',function(req,res){
-  res.render('home');
+  res.render('products');
 });
 
 app.get('/contact',function(req,res){
-  res.render('home');
+  res.render('contact');
 });
 
 
