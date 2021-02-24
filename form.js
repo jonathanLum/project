@@ -32,21 +32,7 @@ app.get('/',function(req,res){
 
 
 
-app.post('/', function(req,res){
-  var dataBody = [];
-  for (var i in req.body){
-    dataBody.push({'name':i,'value':req.body[i]})
-  }
-  var dataURL = [];
-  for (var n in req.query){
-    dataURL.push({'name':n,'value':req.query[n]})
-  }
-  var context = {};
-  context.urlTable = dataURL;
-  context.bodyTable = dataBody;
-  context.type = "POST"
-  res.render('show-data', context);
-});
+
 
 app.use(function(req,res){
   res.status(404);
