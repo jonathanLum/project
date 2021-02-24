@@ -16,14 +16,7 @@ app.set('port', 3636);
 
 
 app.get('/',function(req,res){
-  var data = [];
-  for (var i in req.query){
-    data.push({'name':i,'value':req.query[i]})
-  }
-  var context = {};
-  context.urlTable = data;
-  context.type = "GET"
-  res.render('home', context);
+  res.render('home');
 });
 
 
