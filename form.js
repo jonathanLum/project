@@ -9,7 +9,11 @@ app.use(bodyParser.json());
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', 3366);
+app.set('port', 3636);
+
+
+
+
 
 app.get('/',function(req,res){
   var data = [];
@@ -19,8 +23,14 @@ app.get('/',function(req,res){
   var context = {};
   context.urlTable = data;
   context.type = "GET"
-  res.render('show-data', context);
+  res.render('home', context);
 });
+
+
+
+
+
+
 
 app.post('/', function(req,res){
   var dataBody = [];
