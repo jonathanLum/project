@@ -21,6 +21,18 @@ app.get('/',function(req,res){
   res.render('home');
 });
 
+app.get('/info',function(req,res){
+  res.render('home');
+});
+
+app.get('/products',function(req,res){
+  res.render('home');
+});
+
+app.get('/contact',function(req,res){
+  res.render('home');
+});
+
 
 
 
