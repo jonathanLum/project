@@ -18,19 +18,19 @@ app.set('port', 3636);
 
 
 app.get('/',function(req,res){
-  res.render('views/home');
+  res.render('/views/home');
 });
 
 app.get('/info',function(req,res){
-  res.render('views/home');
+  res.render('/views/home');
 });
 
 app.get('/products',function(req,res){
-  res.render('views/home');
+  res.render('/views/home');
 });
 
 app.get('/contact',function(req,res){
-  res.render('views/home');
+  res.render('/views/home');
 });
 
 
