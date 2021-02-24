@@ -1,0 +1,412 @@
+/*=============================================================================
+
+					DATABASETESTS.COM CSS STYLE SHEET
+
+===============================================================================*/
+
+
+/*==========================================
+
+			TABLE OF CONTENTS 
+
+============================================
+
+
+1. MAIN THEME
+	1A. body
+	1B. button
+	1C. center
+	1D. pagewrapper
+	1E. contentarea
+	
+2. LOGIN PAGE AND SIGNUP PAGE
+	2A. focusbox
+	2B. Focusbox__separator
+	2C. Focusbox__message
+	2D. Focusbox__form and Focusbox__input
+	2E. Focusbox__resetlink
+	
+3. NAVBAR
+	3A. 
+
+
+
+
+
+
+
+
+
+===========================================*/
+
+
+
+
+/*======================
+		MAIN THEME  
+========================*/
+
+body {
+	background-color: #4FA4D6;
+}
+
+.button {
+	height: 100%;
+	padding: 20px 20px;
+	margin: 0px 0px;
+	
+	font-family: arial;
+	font-size: 20px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	
+	border: none;
+	border-radius: 19px;
+	background: linear-gradient(145deg, #55afe5, #4794c1);
+	box-shadow: 8px 8px 20px #438bb6, 
+				-8px -8px 20px #5bbdf6;
+				
+	cursor: pointer;
+}
+.button--style-focusbox{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+.pagewrapper{
+	width: 900px;
+	height: 1000px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	background-color: #4FA4D6;
+	border: none;
+	border-radius: 74px;
+	box-shadow: 25px 25px 30px #4895c3, 
+				-25px -25px 30px #56b3e9;
+}
+.contentarea{
+	padding: 70px;
+}
+
+
+
+
+/*=============================== 
+	LOGIN PAGE AND SIGNUP PAGE 
+================================*/
+
+/* SCALING */
+@media screen and (max-width: 992px) {
+	html{
+		
+	}
+}
+
+
+/* Focusbox */
+.focusbox{
+	position: absolute;
+	width: 23.4%;
+	margin: 0px auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	
+	font-family: arial;
+	font-size:1rem;
+	
+	background-color: #4FA4D6;
+	border: none;
+	border-radius: 74px;
+	box-shadow: 28px 28px 56px #4895c3, 
+				-28px -28px 56px #56b3e9;
+}
+
+
+/* Focusbox__separator */
+.focusbox__separator{
+	display: inline-block; 
+	width:90%;
+	height: 8px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	
+	box-shadow: 0px 2px #438bb6;
+}
+.focusbox__separator--text{
+	width: 40px;
+	margin: auto;
+	
+	font-size: 20px;
+	
+	text-align: center;
+	color: #438bb6;
+	
+	background: #4FA4D6;
+}
+
+
+/* Focusbox__message */
+.focusbox__message{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 28px;
+	
+}
+.focusbox__message--style-success{
+	color: white;
+}
+.focusbox__message--style-error{
+	color: #b42a45;
+}
+
+
+/* Focusbox__form and Focusbox__input */
+.focusbox__form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.focusbox__input{
+	height: 40px;
+	width: 300px;
+	margin-top: 7px;
+	margin-bottom: 14px;
+	
+	text-align: center;
+	font-size: 18px;
+	
+	
+	background: #A7D6F2;
+	border: none;
+	border-radius: 13px;
+	box-shadow: 11px 11px 22px #4895c3, 
+				-11px -11px 22px #56b3e9;
+}
+.focusbox__input--style-solo{
+	margin-top: 15px;
+}
+
+
+/* Focusbox__resetlink */
+.focusbox__resetlink{
+	margin-top: 0px;
+	margin-bottom:0px;
+	text-align: center;
+	font-size: 14px;
+	text-decoration:none;
+	color: #326989;
+
+}
+
+
+
+/*=============================== 
+			NAVBAR 
+================================*/
+
+
+header {
+	width: 95%;
+	height: 75px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 0px 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+  
+	border-radius: 19px;
+	background: #4FA4D6;
+	box-shadow: 8px 8px 20px #438bb6, 
+				-8px -8px 20px #5bbdf6;
+}
+
+.nav-header-main {
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+}
+.logobox{
+	margin: 5px;
+	width: calc((75px * 0.8) - 10px);
+	padding: 2px;
+	border: none;
+	border-radius: 12px;
+	background-color: black;
+	box-shadow: 0px 0px 8px 2px black;
+}
+.header-logo {
+	margin-left: 2px;
+}
+
+.nav-header-main img {
+	height: 100%;
+}
+
+.nav-header-main ul {
+	margin: 0px;
+}
+
+.nav-header-main ul li {
+	list-style: none;
+	float: left;
+	margin: 0px;
+	line-height:calc(75px * 0.8);
+	vertical-align: middle;
+}
+
+.navbutton {
+	height: 100%;
+	padding: 14px 17px;
+
+	margin-right: 25px;
+	
+	font-family: arial;
+	font-size: 16px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	
+	border: none;
+	border-radius: 19px;
+	background: linear-gradient(145deg, #55afe5, #4794c1);
+	box-shadow: 8px 8px 15px #438bb6, 
+				-8px -8px 15px #5bbdf6;
+				
+	cursor: pointer;
+}
+
+.nav-header-right {
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+	line-height:calc(75px * 0.8);
+	vertical-align: middle;
+}
+
+header input{
+	height: 30px;
+	width: 250px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 30px;
+	
+	font-size: 17px;
+	text-align: center;
+	font-family: arial;
+	
+	background: #A7D6F2;
+	border: none;
+	border-radius: 13px;
+	box-shadow: 11px 11px 22px #4895c3, 
+				-11px -11px 22px #56b3e9;
+}
+.username{
+	
+}
+.logoutF{
+	height:80%;
+	margin:auto;
+}
+.logoutB {
+	height:100%;
+	margin-left:30px;
+	padding-left:17px;
+	padding-right:17px;
+	
+	font-family: arial;
+	font-size: 16px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	
+	border: none;
+	border-radius: 19px;
+	background: linear-gradient(145deg, #55afe5, #4794c1);
+	box-shadow: 8px 8px 15px #438bb6, 
+				-8px -8px 15px #5bbdf6;
+				
+	cursor: pointer;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #FFF;
+  font-family: arial;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	margin-right: 40px;
+	
+	font-size: 16px;
+	border: none;
+	outline: none;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
