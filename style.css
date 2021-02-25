@@ -19,26 +19,19 @@
 	1D. pagewrapper
 	1E. contentarea
 	
-2. LOGIN PAGE AND SIGNUP PAGE
-	2A. focusbox
-	2B. Focusbox__separator
-	2C. Focusbox__message
-	2D. Focusbox__form and Focusbox__input
-	2E. Focusbox__resetlink
-	
-3. NAVBAR
-	3A. 
+2. HEADER AND FOOTER
+	2A. 
 
-
-
-
-
-
+3. LOGIN PAGE AND SIGNUP PAGE
+	3A. focusbox
+	3B. Focusbox__separator
+	3C. Focusbox__message
+	3D. Focusbox__form and Focusbox__input
+	3E. Focusbox__resetlink
 
 
 
 ===========================================*/
-
 
 
 
@@ -50,7 +43,7 @@ body {
 	background-color: #4FA4D6;
 }
 
-.button {
+button {
 	height: 100%;
 	padding: 20px 20px;
 	margin: 0px 0px;
@@ -94,95 +87,14 @@ body {
 	padding: 70px;
 }
 
-
-
-
-/*=============================== 
-	LOGIN PAGE AND SIGNUP PAGE 
-================================*/
-
-/* SCALING */
-@media screen and (max-width: 992px) {
-	html{
-		
-	}
-}
-
-
-/* Focusbox */
-.focusbox{
-	position: absolute;
-	width: 23.4%;
-	margin: 0px auto;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	
-	font-family: arial;
-	font-size:1rem;
-	
-	background-color: #4FA4D6;
-	border: none;
-	border-radius: 74px;
-	box-shadow: 28px 28px 56px #4895c3, 
-				-28px -28px 56px #56b3e9;
-}
-
-
-/* Focusbox__separator */
-.focusbox__separator{
-	display: inline-block; 
-	width:90%;
-	height: 8px;
-	margin-top: 20px;
-	margin-bottom: 30px;
-	
-	box-shadow: 0px 2px #438bb6;
-}
-.focusbox__separator--text{
-	width: 40px;
-	margin: auto;
-	
-	font-size: 20px;
-	
-	text-align: center;
-	color: #438bb6;
-	
-	background: #4FA4D6;
-}
-
-
-/* Focusbox__message */
-.focusbox__message{
-	margin-top: 0px;
-	margin-bottom: 10px;
-	text-align: center;
-	font-size: 28px;
-	
-}
-.focusbox__message--style-success{
-	color: white;
-}
-.focusbox__message--style-error{
-	color: #b42a45;
-}
-
-
 /* Focusbox__form and Focusbox__input */
-.focusbox__form{
+form{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
-.focusbox__input{
+input{
 	height: 40px;
 	width: 300px;
 	margin-top: 7px;
@@ -191,33 +103,24 @@ body {
 	text-align: center;
 	font-size: 18px;
 	
-	
 	background: #A7D6F2;
 	border: none;
 	border-radius: 13px;
 	box-shadow: 11px 11px 22px #4895c3, 
 				-11px -11px 22px #56b3e9;
 }
-.focusbox__input--style-solo{
-	margin-top: 15px;
-}
-
-
-/* Focusbox__resetlink */
-.focusbox__resetlink{
+a{
 	margin-top: 0px;
 	margin-bottom:0px;
 	text-align: center;
 	font-size: 14px;
 	text-decoration:none;
 	color: #326989;
-
 }
 
 
-
 /*=============================== 
-			NAVBAR 
+			HEADER AND FOOTER
 ================================*/
 
 
@@ -356,11 +259,11 @@ footer {
   
 	border-radius: 19px;
 	background: #4FA4D6;
-	box-shadow: 8px 8px 20px #438bb6, 
-				-8px -8px 20px #5bbdf6;
+	box-shadow: inset 8px 8px 20px #438bb6, 
+				inset -8px -8px 20px #5bbdf6;
 }
 
-button{
+footer button{
 	height: 40px;
 	width: 300px;
 	margin-top: 7px;
@@ -378,7 +281,7 @@ button{
 				-11px -11px 22px #56b3e9;
 }
 
-button:hover{
+footer button:hover{
 	background: #7BBBE1;
 }
 
@@ -408,3 +311,76 @@ footer  a{
 footer  a:hover{
 	background: #7BBBE1;
 }
+
+
+
+
+/*=============================== 
+	LOGIN PAGE AND SIGNUP PAGE 
+================================*/
+
+/* SCALING */
+@media screen and (max-width: 992px) {
+	html{
+		
+	}
+}
+
+
+/* Focusbox */
+.focusbox{
+	position: absolute;
+	width: 23.4%;
+	margin: 0px auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	
+	font-family: arial;
+	font-size:1rem;
+	
+	background-color: #4FA4D6;
+	border: none;
+	border-radius: 74px;
+	box-shadow: 28px 28px 56px #4895c3, 
+				-28px -28px 56px #56b3e9;
+}
+
+
+/* Focusbox__separator */
+.focusbox__separator{
+	display: inline-block; 
+	width:90%;
+	height: 8px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	
+	box-shadow: 0px 2px #438bb6;
+}
+.focusbox__separator--text{
+	width: 40px;
+	margin: auto;
+	
+	font-size: 20px;
+	
+	text-align: center;
+	color: #438bb6;
+	
+	background: #4FA4D6;
+}
+
+
+.focusbox__message--style-success{
+	color: white;
+}
+.focusbox__message--style-error{
+	color: #b42a45;
+}
+
