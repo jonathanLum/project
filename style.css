@@ -43,7 +43,7 @@ body {
 	background-color: #4FA4D6;
 }
 
-body button {
+body > button {
 	height: 100%;
 	padding: 20px 20px;
 	margin: 0px 0px;
@@ -251,7 +251,7 @@ footer {
 	margin: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	padding: 0px 15px;
+	padding: 20px 25px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
