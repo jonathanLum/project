@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<script src="clock.inc.js" defer></script>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Web Development Project">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Galactic Store</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<header>
+	<table>
+	<tr>
+		<td><h1 class="name">The Store of Many Things</h1></td>
+		<td>
+		<nav class="nav-header-main">
+			<ul>
+				<li><a href="/" class="navbutton">Home</a></li>
+				<li><a href="/info" class="navbutton">Information</a></li>
+				<li><a href="/products" class="navbutton">Products</a></li>
+				<li><a href="/contact" class="navbutton">Contact</a></li>
+			</ul>
+		</nav>
+		</td><td>
+		<nav class="nav-header-right">
+			<div class="clock-box">
+				<div class="clock">HH : MM : SS</div>
+				<div class="date">DD - MM - YYYY</div>
+			</div>
+		</nav>
+		</td>
+	</tr>
+	</table>
+	</header>
+</head>
+<body>
+	<div class="pagewrapper">
+		<div class="contentarea">
+			<h1>Products Page</h1>
+			<div class="pro">
+			<table>
+				<tr>
+					<td>
+					<ul>
+						<li class="product"><img src="juice.png"><h3>Turbulent Juice</h3>Price: $2.99</li>
+						<li class="product"><img src="smiggles.jpeg"><h3>Strawberry Smiggles Cereal</h3>Price: $6.48</li>
+						<li class="product"><img src="doors.jpg"><h3>Real Fake Doors</h3>Price: $59.99</li>
+					</ul>
+					</td>
+					<td>
+					<ul>
+						<li class="product"><img src="plumbus.png"><h3>Plumbus</h3>Price: $2.99</li>
+						<li class="product"><img src="eyeholes.jpg"><h3>EyeHoles Cereal</h3>Price: $2.99</li>
+						<li class="product"><img src="space.jpg"><h3>Personal Space</h3>Price: $2.99</li>
+					</ul>
+					</td>
+				</tr>
+			</table></div>
+	
+		</div>
+	</div>
+</body>
+<footer>
+	<button id="map" type="submit" onclick="window.open('map.png')">Download Map To Store</button>
+	<a href="https://earth.google.com/web/@-3.20541938,23.09905336,5482.03423075a,63164517.37847328d,35y,-0h,0t,0r" target="_blank" rel="noopener noreferrer" id="planet">See your tiny planet here!</a>
+</footer>
