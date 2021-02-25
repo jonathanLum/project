@@ -378,11 +378,16 @@ button{
 				-11px -11px 22px #56b3e9;
 }
 
+button:hover{
+	background: #7BBBE1;
+}
+
 footer  a{
 	height: 40px;
 	width: 300px;
 	margin-top: 7px;
 	margin-bottom: 14px;
+	margin-left: 40px;
 	padding: 10px;
 	
 	font-family: arial;
@@ -398,4 +403,8 @@ footer  a{
 	border-radius: 13px;
 	box-shadow: 11px 11px 22px #4895c3, 
 				-11px -11px 22px #56b3e9;
+}
+
+footer  a:hover{
+	background: #7BBBE1;
 }
