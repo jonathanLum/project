@@ -255,6 +255,10 @@ header table{
 	justify-self: right;
 }
 
+.clock{
+	padding-right:30px;
+}
+
 .logoutF{
 	height:80%;
 	margin:auto;
@@ -295,12 +299,12 @@ header table{
 
 
 footer {
-	width: 95%;
+	width: 80%;
 	height: 75px;
 	margin: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	padding: 20px 25px;
+	padding: 20px 25px 15px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -317,7 +321,7 @@ footer button{
 	width: 300px;
 	margin-top: 7px;
 	margin-bottom: 14px;
-	margin-left:20%
+	margin-left:20%;
 	
 	text-align: center;
 	font-size: 18px;
@@ -339,7 +343,7 @@ footer  a{
 	width: 300px;
 	margin-top: 7px;
 	margin-bottom: 14px;
-	margin-right:20%
+	margin-right:20%;
 	padding: 10px;
 	
 	font-family: arial;
