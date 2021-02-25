@@ -138,6 +138,10 @@ header {
 				-8px -8px 20px #5bbdf6;
 }
 
+header table{
+	width: 100%
+}
+
 .name{
 	font-family: arial;
 	color: #FFF;
