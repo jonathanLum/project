@@ -410,3 +410,21 @@ i {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
+
+footer {
+	width: 95%;
+	height: 75px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 0px 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+  
+	border-radius: 19px;
+	background: #4FA4D6;
+	box-shadow: 8px 8px 20px #438bb6, 
+				-8px -8px 20px #5bbdf6;
+}
