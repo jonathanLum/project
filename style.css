@@ -161,6 +161,7 @@ header table{
 
 .nav-header-main ul li {
 	list-style: none;
+	float: left;
 	margin: 0px;
 	line-height:calc(75px * 0.8);
 	vertical-align: middle;
@@ -260,6 +261,7 @@ footer button{
 	width: 300px;
 	margin-top: 7px;
 	margin-bottom: 14px;
+	margin-left:20%
 	
 	text-align: center;
 	font-size: 18px;
@@ -278,11 +280,11 @@ footer button:hover{
 }
 
 footer  a{
-	height: 40px;
+	height: 20px;
 	width: 300px;
 	margin-top: 7px;
 	margin-bottom: 14px;
-	margin-left: 40px;
+	margin-right:20%
 	padding: 10px;
 	
 	font-family: arial;
