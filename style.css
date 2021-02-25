@@ -416,7 +416,8 @@ footer {
 	width: 95%;
 	height: 75px;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	padding: 0px 15px;
 	display: flex;
 	flex-direction: row;
@@ -427,4 +428,21 @@ footer {
 	background: #4FA4D6;
 	box-shadow: 8px 8px 20px #438bb6, 
 				-8px -8px 20px #5bbdf6;
+}
+
+button{
+	height: 40px;
+	width: 300px;
+	margin-top: 7px;
+	margin-bottom: 14px;
+	
+	text-align: center;
+	font-size: 18px;
+	
+	
+	background: #A7D6F2;
+	border: none;
+	border-radius: 13px;
+	box-shadow: 11px 11px 22px #4895c3, 
+				-11px -11px 22px #56b3e9;
 }
