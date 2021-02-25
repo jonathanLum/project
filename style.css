@@ -87,6 +87,7 @@ body > button {
 	padding: 70px;
 	width:100%;
 	height:100%;
+	border: 2px;
 }
 
 /* Focusbox__form and Focusbox__input */
