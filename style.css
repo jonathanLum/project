@@ -118,6 +118,13 @@ a{
 	color: #326989;
 }
 
+.scroll{
+	width:100%;
+	overflow:auto;
+	border:none;
+	padding:2%;
+}
+
 
 /*=============================== 
 			HEADER AND FOOTER
