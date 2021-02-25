@@ -130,10 +130,7 @@ header {
 	margin: auto;
 	margin-top: 20px;
 	padding: 0px 15px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+
   
 	border-radius: 19px;
 	background: #4FA4D6;
@@ -144,28 +141,14 @@ header {
 .name{
 	font-family: arial;
 	color: #FFF;
+	justify-self: left;
 }
 
 .nav-header-main {
 	height: 80%;
 	display: flex;
 	flex-direction: row;
-}
-.logobox{
-	margin: 5px;
-	width: calc((75px * 0.8) - 10px);
-	padding: 2px;
-	border: none;
-	border-radius: 12px;
-	background-color: black;
-	box-shadow: 0px 0px 8px 2px black;
-}
-.header-logo {
-	margin-left: 2px;
-}
-
-.nav-header-main img {
-	height: 100%;
+	justify-self: center;
 }
 
 .nav-header-main ul {
@@ -208,6 +191,7 @@ header {
 	flex-direction: row;
 	line-height:calc(75px * 0.8);
 	vertical-align: middle;
+	justify-self: right;
 }
 
 
