@@ -190,6 +190,10 @@ header table{
 }
 
 .nav-header-right {
+
+}
+
+.clock-box{
 	height: 80%;
 	display: flex;
 	flex-direction: row;
@@ -197,7 +201,6 @@ header table{
 	vertical-align: middle;
 	justify-self: right;
 }
-
 
 .logoutF{
 	height:80%;
