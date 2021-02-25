@@ -131,13 +131,18 @@ header {
 	padding: 0px 15px;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: flex-start;
   
 	border-radius: 19px;
 	background: #4FA4D6;
 	box-shadow: 8px 8px 20px #438bb6, 
 				-8px -8px 20px #5bbdf6;
+}
+
+.name{
+	color: #FFF;
+	font-family: arial;
 }
 
 .headrow {
