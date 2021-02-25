@@ -123,35 +123,22 @@ a{
 			HEADER AND FOOTER
 ================================*/
 
+
 header {
 	width: 95%;
-	height: 130px;
+	height: 75px;
 	margin: auto;
 	margin-top: 20px;
 	padding: 0px 15px;
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: stretch;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
   
 	border-radius: 19px;
 	background: #4FA4D6;
 	box-shadow: 8px 8px 20px #438bb6, 
 				-8px -8px 20px #5bbdf6;
-}
-
-.name{
-	color: #FFF;
-	font-family: arial;
-}
-
-.headrow {
-	height: 70%;
-	width: 90%
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
 }
 
 .nav-header-main {
