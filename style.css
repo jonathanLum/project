@@ -132,7 +132,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: stretch;
   
 	border-radius: 19px;
 	background: #4FA4D6;
