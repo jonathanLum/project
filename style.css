@@ -131,8 +131,8 @@ header {
 	padding: 0px 15px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	justify-content: flex-start;
+	align-items: center;
   
 	border-radius: 19px;
 	background: #4FA4D6;
