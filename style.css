@@ -63,6 +63,11 @@ body > button {
 				
 	cursor: pointer;
 }
+
+h1{
+	text-align: center;
+}
+
 .button--style-focusbox{
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -76,6 +81,8 @@ body > button {
 	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
+
+    position: relative;
 	
 	background-color: #4FA4D6;
 	border: none;
@@ -84,10 +91,21 @@ body > button {
 				-25px -25px 30px #56b3e9;
 }
 .contentarea{
-	padding: 70px;
-	width:100%;
-	height:100%;
-	border: 2px;
+	padding: 35px 70px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid red;
+	height: 95%;
+}
+
+.scroll{
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	height:700px;
+	overflow: scroll;
+	padding:2%;
+	border: 5px solid green;
 }
 
 /* Focusbox__form and Focusbox__input */
@@ -125,12 +143,7 @@ img{
 	width:80%
 }
 
-.scroll{
-	width: 100%;
-	height:100%;
-	overflow: scroll;
-	padding:2%;
-}
+
 
 
 /*=============================== 
