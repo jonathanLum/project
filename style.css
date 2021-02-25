@@ -125,7 +125,7 @@ a{
 
 header {
 	width: 95%;
-	height: 120px;
+	height: 130px;
 	margin: auto;
 	margin-top: 20px;
 	padding: 0px 15px;
@@ -146,7 +146,8 @@ header {
 }
 
 .headrow {
-	height: 80%;
+	height: 70%;
+	width: 90%
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
