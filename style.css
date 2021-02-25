@@ -125,14 +125,14 @@ a{
 
 header {
 	width: 95%;
-	height: 75px;
+	height: 120px;
 	margin: auto;
 	margin-top: 20px;
 	padding: 0px 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: flex-start;
   
 	border-radius: 19px;
 	background: #4FA4D6;
