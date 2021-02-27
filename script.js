@@ -16,10 +16,10 @@ function bindButtons()
 				console.log(response);
 				var response = JSON.parse(response.data);
 				document.getElementById('response').textContent = response.httpBin;*/
-				document.getElementById('response').textContent = "Submitted to " + document.getElementById('tosend').value + "!";
 			}
 		});
 		req.send(JSON.stringify(payload));
+		document.getElementById('response').textContent = "Submitted to " + document.getElementById('tosend').value + "!";
 		event.preventDefault();
 	});
 }
