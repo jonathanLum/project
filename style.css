@@ -65,6 +65,9 @@ body > button, form > button {
 				
 	cursor: pointer;
 }
+body > button:hover, form > button:hover {
+	background: linear-gradient(145deg, #5bbdf6, #55afe5);
+}
 
 h1{
 	text-align: center;
