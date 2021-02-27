@@ -120,8 +120,8 @@ h3{
 	margin-top: auto;
 	margin-left: auto;
 	margin-right: auto;
-	height:400px;
-	overflow: scroll;
+	height:450px;
+	overflow:auto;
 	padding:2%;
 	/*border: 5px solid green;*/
 }
@@ -129,7 +129,7 @@ h3{
 div > .pro{
 	margin-top: auto;
 	
-	height:400px;
+	height:450px;
 	overflow: auto;
 
 }
