@@ -66,7 +66,7 @@ body > button, form > button {
 	cursor: pointer;
 }
 body > button:hover, form > button:hover {
-	background: linear-gradient(145deg, #5bbdf6, #55afe5);
+	background: linear-gradient(145deg, #59b7ef, #4b9ccc);
 }
 
 h1{
@@ -314,6 +314,9 @@ header table{
 				-8px -8px 15px #5bbdf6;
 				
 	cursor: pointer;
+}
+.navbutton:hover{
+	background: linear-gradient(145deg, #59b7ef, #4b9ccc);
 }
 
 .nav-header-right {
