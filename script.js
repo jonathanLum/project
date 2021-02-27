@@ -11,11 +11,11 @@ function bindButtons()
 		{
 			if(req.status >= 200 && req.status < 400)
 			{
-				/*var response = JSON.parse(req.responseText);
+				var response = JSON.parse(req.responseText);
 				console.log(response);
 				var response = JSON.parse(response.data);
-				document.getElementById('response').textContent = response.httpBin;*/
-				document.getElementById('response').textContent = "Submitted!";
+				document.getElementById('response').textContent = response.httpBin;
+				/*document.getElementById('response').textContent = "Submitted!";*/
 			}
 		});
 		req.send(JSON.stringify(payload));
