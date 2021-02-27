@@ -45,7 +45,7 @@ body {
 	color: #FFF;
 }
 
-body > button {
+body > button, form > button {
 	height: 100%;
 	padding: 20px 20px;
 	margin: 0px 0px;
@@ -94,7 +94,7 @@ h3{
 
 .pagewrapper{
 	width: 900px;
-	height: 1000px;
+	height: 600px;
 	margin-top: 60px;
 	margin-bottom: 50px;
 	margin-left: auto;
@@ -369,7 +369,7 @@ footer  a:hover{
 
 
 /*=============================== 
-	LOGIN PAGE AND SIGNUP PAGE 
+	FORM
 ================================*/
 
 /* SCALING */
@@ -379,61 +379,6 @@ footer  a:hover{
 	}
 }
 
-
-/* Focusbox */
-.focusbox{
-	position: absolute;
-	width: 23.4%;
-	margin: 0px auto;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	
-	font-family: arial;
-	font-size:1rem;
-	
-	background-color: #4FA4D6;
-	border: none;
-	border-radius: 74px;
-	box-shadow: 28px 28px 56px #4895c3, 
-				-28px -28px 56px #56b3e9;
+#response, #submit{
+	margin-top:30px;
 }
-
-
-/* Focusbox__separator */
-.focusbox__separator{
-	display: inline-block; 
-	width:90%;
-	height: 8px;
-	margin-top: 20px;
-	margin-bottom: 30px;
-	
-	box-shadow: 0px 2px #438bb6;
-}
-.focusbox__separator--text{
-	width: 40px;
-	margin: auto;
-	
-	font-size: 20px;
-	
-	text-align: center;
-	color: #438bb6;
-	
-	background: #4FA4D6;
-}
-
-
-.focusbox__message--style-success{
-	color: white;
-}
-.focusbox__message--style-error{
-	color: #b42a45;
-}
-
