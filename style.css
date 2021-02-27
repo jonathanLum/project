@@ -109,7 +109,7 @@ h3{
 				-25px -25px 30px #56b3e9;
 }
 .contentarea{
-	padding: 35px 70px 0px;
+	padding: 14px 70px 0px;
 	margin-left: auto;
 	margin-right: auto;
 	border: 5px solid red;
@@ -120,7 +120,7 @@ h3{
 	margin-top: auto;
 	margin-left: auto;
 	margin-right: auto;
-	height:700px;
+	height:400px;
 	overflow: scroll;
 	padding:2%;
 	border: 5px solid green;
@@ -129,7 +129,7 @@ h3{
 div > .pro{
 	margin-top: auto;
 	
-	height:700px;
+	height:400px;
 	overflow: auto;
 
 }
