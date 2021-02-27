@@ -6,7 +6,7 @@ function bindButtons()
 	document.getElementById('submit').addEventListener('click', function(event){
 		var req = new XMLHttpRequest();
 		var payload = {httpBin:document.getElementById('tosend').value};
-		req.open("POST", "http://httpbin.org/post", true);
+		req.open("POST", " http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php", true);
 		req.setRequestHeader('Content-Type', 'application/json');
 		req.addEventListener('load',function()
 		{
