@@ -41,8 +41,8 @@ function currentSlide(n) {
 	clearTimeout(change);
 	showSlides(slideIndex = n);
 }
-
-function showSlides(n) {// Learned and adapted from https://www.w3schools.com/
+// Learned and adapted from https://www.w3schools.com/
+function showSlides(n) {
 	var i;
 	var slides = document.getElementsByClassName("mySlides");
 	var dots = document.getElementsByClassName("dot");
